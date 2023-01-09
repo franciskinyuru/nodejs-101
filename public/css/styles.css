@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ubuntu:wght@300&display=swap");
+
+html {
+  scroll-behavior: auto;
+}
+
+#intro-section {
+  background-image: url("../assets/backgrounds/h_img.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-top: 15%;
+  font-family: "Gabriela", serif;
+  padding-bottom: 3%;
+  font-weight: 500;
+}
+
+.D-logo {
+  padding-bottom: 3%;
+}
+
+.mouse-icon {
+  padding-top: 4%;
+}
+
+#about-section {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-weight: 400;
+}
+
+#services-section {
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#what-we-do-section {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.heading2 {
+  text-align: center;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.flex-container {
+  display: flex;
+  align-content: center;
+  gap: 15px;
+  max-width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+ 
+}
+
+.image_text1,.image_text2,.image_text3, .image_text4,.image_text5,.image_text6,.image_text7,.image_text8{
+  position:absolute;
+  top: 0;
+  left:0;
+  width:100%;
+  height: 100%;
+  background:rgba(250, 248, 248, 0.4);
+  font-size: x-large;
+  font-weight: 400;
+  color: black;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  text-align: center;
+  
+  
+}
+.image_text1,.image_text2,.image_text3, .image_text4,.image_text5,.image_text6,.image_text7,.image_text8{
+  display: none;
+}
+
+#work1,#work2,#work3,#work4,#work5,#work6,#work7,#work8{
+  position:relative;
+
+}
+
+
+.second_row{
+  padding-top: 15px;
+}
+
+.work-image{
+  display:block;
+  width: 100%;
+}
+#contacts {
+  color: white;
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.mce-NAME{
+  background-color: transparent;
+}
+.mce-NAME::placeholder{
+  color: white;
+  font-size: 1em;
+}
+
+#mce-MMERGE2{
+  background-color: transparent;
+  row-gap: 20%;
+}
+
+#mce-MMERGE2::placeholder{
+  color:white;
+  font-size: 1em;
+}
+
+.clear{
+  padding-top: 20px;
+  
+}
+
+footer {
+  display: flex;
+
+  padding-top: 2%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.footer-section p {
+  text-align: center;
+}
+
+.design-icon-hide {
+  display: none;
+}
+
+.dev-icon-hide {
+  display: none;
+}
+
+.product-icon-hide {
+  display: none;
+}
