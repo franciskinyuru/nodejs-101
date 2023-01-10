@@ -9,8 +9,8 @@ let start = function (route, handle) {
         logger.info('Request for '+pathname + " Has been received with the request methid"+ request.method)
         route(handle, pathname, response);
 }
-let PORT = process.env.PORT || 8000
-http.createServer(onRequest).listen(8000);
+let PORT = process.env.PORT || 8001
+http.createServer(onRequest).listen(PORT);
 logger.info(`Server has started on Port: ${PORT}`)
 console.log(`Server has started on Port: ${PORT}`);
 }
