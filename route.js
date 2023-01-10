@@ -1,6 +1,9 @@
 let path = require('path');
 let fs = require('fs');
+let Logger = require('./logger');
+let logger = new Logger('Router');
 function route(handle ,pathname, response){
+    logger.info("About to route you request for " + pathname)
     console.log("About to route you request for " + pathname);
     if (typeof handle[pathname] === 'function') {
         return handle[pathname](response);  
@@ -23,6 +26,7 @@ function route(handle ,pathname, response){
  
     }
     else{
+        logger.info("No request found for "+ pathname)
         console.log("No request found for "+ pathname);
         response.writeHead(404 ,{"Content-type":"text/html"});
         response.write("<h1>404 Not found</h1>");

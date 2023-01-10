@@ -1,0 +1,24 @@
+{
+  "name": "delani-node-app",
+  "version": "1.0.0",
+  "description": "#### This a landing page for a website for a studio that does design and programming work.",
+  "main": "index.js",
+"engines": {
+  "node": ">=18.11.0"
+},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciskinyuru/nodejs-101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franciskinyuru/nodejs-101/issues"
+  },
+  "homepage": "https://github.com/franciskinyuru/nodejs-101#readme"
+}

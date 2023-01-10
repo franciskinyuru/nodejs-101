@@ -1,5 +1,8 @@
 let fs = require('fs');
+let Logger = require('./logger');
+let logger = new Logger('RequestHandlers');
 function index(response){
+    logger.info("Request handler for index was called")
     console.log("Request handler for index was called");
     fs.readFile('./public/index.html', function(error, data){
         if(error){
@@ -14,6 +17,7 @@ function index(response){
 }
 
 function portfolio(response){
+    logger.info("Request handler for portfolio was called")
     console.log("Request handler for portfolio was called");
     response.writeHead(200,{"Content-type":"text/plain"});
     response.write("This are some of our projects.");
