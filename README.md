@@ -8,10 +8,10 @@ Delani Studio is a website for a company that works in design and programming.
 
 ## Setup/Installation Requirements
 
-<!-- - clone this repository to an empty folder in your computer: https://github.com/lydiah1wachira/Delani-studio.git
+- clone this repository to an empty folder in your computer: https://github.com/franciskinyuru/nodejs-101.git
 - open the index.html in a browser
 - To make changes to the program, open the folder in a text editor of your choice.
-- alternatively, open the file as a website( view only):https://lydiah1wachira.github.io/Delani-studio/ -->
+- alternatively, open the file as a website( view only): https://github.com/franciskinyuru/nodejs-101
 
 ## Behaviour Driven Development
 1. Add a toggle method to toggle between hiding and showing elements.
