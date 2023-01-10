@@ -33,7 +33,7 @@ Delani Studio is a website for a company that works in design and programming.
 
 ## Deployment and access 
 
-The work have been deployed on (Render)[https://render.com/] and the production site can be view [here](https://francisd.onrender.com/)
+The work have been deployed on [Render](https://render.com/) and the production site can be view [here](https://francisd.onrender.com/)
 
 ## Known Bugs
 
