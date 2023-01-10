@@ -31,6 +31,10 @@ Delani Studio is a website for a company that works in design and programming.
 
 5. create function to display the output.
 
+## Deployment and access 
+
+The work have been deployed on (Render)[https://render.com/] and the production site can be view [here](https://francisd.onrender.com/)
+
 ## Known Bugs
 
 The mailchimp form does not work properly.
@@ -41,6 +45,7 @@ HTML
 CSS
 JavaScript
 jQuery
+NodeJs
 
 ## Support and contact details
 
